@@ -1,0 +1,302 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Global styles */
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyKptl7QMZshH8gqu_0HifZbcoQ0MBhtlFMmVhgpQ0Dg&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    font-weight: 100;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.container {
+   background-image: url(https://st4.depositphotos.com/1755195/21568/i/450/depositphotos_215681722-stock-photo-blurred-abstract-light-violet-pink.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+    max-width: 1000px;
+    margin:  auto;
+    padding: 20px;
+    box-shadow: 4px 8px 14px rgb(255, 0, 0);
+    
+    border-radius: 12px;
+    background-color: #fff9db;
+}
+.conti2{
+    margin-bottom: 100px;
+}
+
+header, section, footer {
+    margin-bottom: 40px;
+}
+
+nav {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    box-shadow: 0px 0px 10px rgb(222, 222, 222);
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+   
+    
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+   
+}
+.image-container{
+    background-color: #fff;
+    
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+a {
+    color: #007bff;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-size: 24px;
+    font-style: italic;
+    color: #0e0909;
+}
+
+/* Image section styles */
+.image-about-container {
+    display: flex;
+    flex-direction: column; /* Change to column for mobile */
+    align-items: center;
+    box-shadow: 0px 0px 10px rgb(204, 203, 203);
+}
+
+.image-container {
+    padding: 20px 0;
+  background-image: url(https://img.freepik.com/free-vector/blank-brown-notepaper-design-vector_53876-175008.jpg?size=626&ext=jpg&ga=GA1.1.1224184972.1714608000&semt=ais);
+   
+    border-radius: 30%;
+    
+    
+}
+
+img {
+    
+    max-width: 20%;
+    height: auto; /* Ensure image height adjusts accordingly */
+ 
+}
+
+/* About section styles */
+#about {
+    max-width: 975px;
+    height: 1200px;
+    text-align: left;
+    margin-bottom: 135px;
+}
+/* Skills and Projects section styles */
+ul {
+    list-style: none;
+}
+
+ul li {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+/* Contact section styles */
+#contact a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    color: #ffffff;
+    background-color: #d4b5b5;
+    padding: 20px 0;
+    box-shadow: 0px 0px 10px rgb(244, 35, 35);
+}
+
+/* Custom styles for additional content */
+.container121 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid rgb(234, 229, 229);
+    box-shadow: 0 4px 12px rgb(0, 0, 0);
+    border-radius: 10%;
+}
+
+.container121 h1, .container121 h2 {
+    text-align: center;
+}
+
+.container121 img {
+    width: 250px;
+    height: 208px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.container121 .icon1, .container121 .icon2, .container121 .icon3, .container121 .icon4, .container121 .icon5 {
+    font-size: 50px;
+    margin: 20px;
+}
+p{
+    color: #0e0909;
+}
+foot{
+    margin: 10px;
+}
+/* Media query for mobile devices */
+@media only screen and (max-width: 800px) {
+    body{
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyKptl7QMZshH8gqu_0HifZbcoQ0MBhtlFMmVhgpQ0Dg&s);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #about {
+        
+        height: 1330px;
+        text-align: left;
+        margin-bottom: 135px;
+    }
+    .container {
+        padding: 10px; /* Adjust padding for smaller screens */
+        background-image: url(https://st4.depositphotos.com/1755195/21568/i/450/depositphotos_215681722-stock-photo-blurred-abstract-light-violet-pink.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+    }
+
+    header h1 {
+        font-size: 36px; /* Decrease font size for smaller screens */
+    }
+
+    header h2 {
+        font-size: 18px; /* Decrease font size for smaller screens */
+    }
+
+    .image-about-container {
+        flex-direction: column; /* Change back to column for mobile */
+    }
+
+    .image-container {
+        padding: 10px 0; /* Adjust padding for smaller screens */
+        background-image: url(https://img.freepik.com/free-vector/blank-brown-notepaper-design-vector_53876-175008.jpg?size=626&ext=jpg&ga=GA1.1.1224184972.1714608000&semt=ais);
+    }
+
+    img {
+        box-shadow:4px 16px 100px #0e0909;
+        border-radius: 50%;
+        
+        max-width: 80%
+         /* Remove shadow for smaller screens */
+    }
+
+    .container121 img {
+        width: 150px;
+        height: 124px; /* Adjust image size for smaller screens */
+    }
+
+    .container121 .icon1, .container121 .icon2, .container121 .icon3, .container121 .icon4, .container121 .icon5 {
+        font-size: 30px; /* Adjust icon size for smaller screens */
+    }
+}
+@media only screen and (max-width: 600px) {
+    body{
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyKptl7QMZshH8gqu_0HifZbcoQ0MBhtlFMmVhgpQ0Dg&s);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #about {
+        
+        height: 1963px;
+        text-align: left;
+        margin-bottom: 135px;
+    }
+    .container {
+        padding: 10px; /* Adjust padding for smaller screens */
+        background-image: url(https://st4.depositphotos.com/1755195/21568/i/450/depositphotos_215681722-stock-photo-blurred-abstract-light-violet-pink.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+    }
+
+    header h1 {
+        font-size: 36px; /* Decrease font size for smaller screens */
+    }
+
+    header h2 {
+        font-size: 18px; /* Decrease font size for smaller screens */
+    }
+
+    .image-about-container {
+        flex-direction: column; /* Change back to column for mobile */
+    }
+
+    .image-container {
+        padding: 10px 0; /* Adjust padding for smaller screens */
+        background-image: url(https://img.freepik.com/free-vector/blank-brown-notepaper-design-vector_53876-175008.jpg?size=626&ext=jpg&ga=GA1.1.1224184972.1714608000&semt=ais);
+    }
+
+    img {
+        box-shadow:4px 16px 100px #0e0909;
+        border-radius: 50%;
+        
+        max-width: 80%
+         /* Remove shadow for smaller screens */
+    }
+
+    .container121 img {
+        width: 150px;
+        height: 124px; /* Adjust image size for smaller screens */
+    }
+
+    .container121 .icon1, .container121 .icon2, .container121 .icon3, .container121 .icon4, .container121 .icon5 {
+        font-size: 30px; /* Adjust icon size for smaller screens */
+    }
+}
